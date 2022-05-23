@@ -1,0 +1,767 @@
+{
+    "title": "13/05/2022",
+    "date": "13/5/2022_10:20",
+    "tabs": [
+        {
+            "title": "YAMLlint - The YAML Validator&&pinned",
+            "url": "http://www.yamllint.com/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "KRDC - KDE Applications",
+            "url": "https://apps.kde.org/krdc/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Index of /dist/tomcat/tomcat-7/v7.0.109/bin",
+            "url": "https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.109/bin/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Edit POD & Deploy - Kubernetes-CKAD",
+            "url": "https://bhavyasree.github.io/kubernetes-CKAD/06.edit-pods-deploys/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Cloud Development Environments: Using Skaffold and Telepresence on Kubernetes for fast dev loops | by Peter O'Neill | Ambassador Labs",
+            "url": "https://blog.getambassador.io/super-fast-inner-development-loops-for-kubernetes-with-skaffold-and-telepresence-1cd3e42ba665",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Using custom root certificates with Minikube | rtyler",
+            "url": "https://brokenco.de/2019/04/25/custom-certificates-minikube.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "(1) Пойдём! Чаты&&pinned",
+            "url": "https://chat.poidem.ru/group/development?jump=cddNz2p62iTWrAGME",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "A deep dive to Canary Deployments with Flagger, NGINX and Linkerd on Kubernetes :: Devopsian | Just another blog about Devops",
+            "url": "https://devopsian.net/posts/kubernetes-canary-deployments/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "11 Open Source Kubernetes Ci Cd Tools To Improve Your Devops | DevsDay.ru",
+            "url": "https://devsday.ru/blog/details/66978",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "community.general.gitlab_runner module – Create, modify and delete GitLab Runners. — Ansible Documentation",
+            "url": "https://docs.ansible.com/ansible/latest/collections/community/general/gitlab_runner_module.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Getting started with virtualization :: Fedora Docs",
+            "url": "https://docs.fedoraproject.org/en-US/quick-docs/getting-started-with-virtualization/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "4.2. Неограниченные процессы",
+            "url": "https://docs.fedoraproject.org/ru-RU/Fedora/13/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Targeted_Policy-Unconfined_Processes.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Managing access to self-hosted runners using groups - GitHub Docs",
+            "url": "https://docs.github.com/en/enterprise-cloud@latest/actions/hosting-your-own-runners/managing-access-to-self-hosted-runners-using-groups",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Searching for repositories - GitHub Docs",
+            "url": "https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories#search-by-topic",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Groups API | GitLab",
+            "url": "https://docs.gitlab.com/ee/api/groups.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Interactive API documentation | GitLab",
+            "url": "https://docs.gitlab.com/ee/api/openapi/openapi_interactive.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Keyword reference for the `.gitlab-ci.yml` file | GitLab",
+            "url": "https://docs.gitlab.com/ee/ci/yaml/#allow_failure",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Setting Up the Virtualization Environment - Getting Started | Minishift | OKD 3.11",
+            "url": "https://docs.okd.io/3.11/minishift/getting-started/setting-up-virtualization-environment.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Docsvision 5 Web-клиент",
+            "url": "https://docs.poidem.ru/DocsvisionWebClient/#/CardView/{06b3094c-a10a-47d2-b307-380b72088bf9}",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Using Cage for a seamless remote Wayland session",
+            "url": "https://drewdevault.com/2019/04/23/Using-cage-for-a-seamless-RDP-Wayland-desktop.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "How can I provide cgroups to a VM guest? - Software & Operating Systems / Linux - Level1Techs Forums",
+            "url": "https://forum.level1techs.com/t/how-can-i-provide-cgroups-to-a-vm-guest/159943/2",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Tips on how to enable cgroup support for libvirt KVM on Fedora",
+            "url": "https://forums.raptorcs.com/index.php?topic=271.0",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Your Repositories&&pinned",
+            "url": "https://github.com/DrDblD?tab=repositories",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "bregman-arie/devops-exercises: Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+            "url": "https://github.com/bregman-arie/devops-exercises",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Releases · dhiltgen/docker-machine-kvm",
+            "url": "https://github.com/dhiltgen/docker-machine-kvm/releases/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm v3.4 Error: UPGRADE FAILED: another operation (install/upgrade/rollback) is in progress · Issue #8987 · helm/helm",
+            "url": "https://github.com/helm/helm/issues/8987",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Error: validation: chart.metadata.version is required on helm package even though --version is used · Issue #9298 · helm/helm",
+            "url": "https://github.com/helm/helm/issues/9298",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "validation: chart.metadata.version is invalid (breaking change in v3.5.2) · Issue #9342 · helm/helm",
+            "url": "https://github.com/helm/helm/issues/9342",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Envoy liveness probe failing due to Client.Timeout exceeded while awaiting headers · Issue #32727 · istio/istio",
+            "url": "https://github.com/istio/istio/issues/32727",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kapicorp/kapitan-reference: Reference structure for Kapitan - alpha version",
+            "url": "https://github.com/kapicorp/kapitan-reference",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Kadet input type *experimental* by ramaro · Pull Request #190 · kapicorp/kapitan",
+            "url": "https://github.com/kapicorp/kapitan/pull/190",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kubernetes-sigs/kubespray: Deploy a Production Ready Kubernetes Cluster",
+            "url": "https://github.com/kubernetes-sigs/kubespray",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kubespray/ansible.md at master · kubernetes-sigs/kubespray",
+            "url": "https://github.com/kubernetes-sigs/kubespray/blob/master/docs/ansible.md",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kubespray/comparisons.md at master · kubernetes-sigs/kubespray",
+            "url": "https://github.com/kubernetes-sigs/kubespray/blob/master/docs/comparisons.md",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kubernetes-sigs/metrics-server: Scalable and efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.",
+            "url": "https://github.com/kubernetes-sigs/metrics-server",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "metrics-server/README.md at master · kubernetes-sigs/metrics-server",
+            "url": "https://github.com/kubernetes-sigs/metrics-server/blob/master/README.md",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Unable to fully scrape metrics from source kubelet_summary · Issue #167 · kubernetes-sigs/metrics-server",
+            "url": "https://github.com/kubernetes-sigs/metrics-server/issues/167",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Metrics-server: How to configure TLS authentication instead of using `--kubelet-insecure-tls`? · Issue #7083 · kubernetes/kops",
+            "url": "https://github.com/kubernetes/kops/issues/7083",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Add missing reference to --embed-certs · kubernetes/minikube@4a20660",
+            "url": "https://github.com/kubernetes/minikube/commit/4a20660a3c9e29fbf5ff003df466ba48b870b667",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "minikube causing selinux errors on none driver · Issue #2666 · kubernetes/minikube",
+            "url": "https://github.com/kubernetes/minikube/issues/2666",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "laurci/kubernate: Kubernetes+Generate = Kubernate❤️",
+            "url": "https://github.com/laurci/kubernate",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "patrickdappollonio/kubectl-slice: Split multiple Kubernetes files into smaller files with ease. Split multi-YAML files into individual files.",
+            "url": "https://github.com/patrickdappollonio/kubectl-slice",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "redkubes/otomi-core: Self-hosted PaaS for Kubernetes",
+            "url": "https://github.com/redkubes/otomi-core",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "redkubes/quickstart: Quickstarts to provision Kubernetes with Otomi",
+            "url": "https://github.com/redkubes/quickstart",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "quickstart/minikube at main · redkubes/quickstart",
+            "url": "https://github.com/redkubes/quickstart/tree/main/minikube",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "southbridgeio/kubespray: Deploy a Production Ready Kubernetes Cluster",
+            "url": "https://github.com/southbridgeio/kubespray",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "[v3.4.0][helm for werf] Remove errPending on upgrade by distorhead · Pull Request #64 · werf/3p-helm",
+            "url": "https://github.com/werf/3p-helm/pull/64",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "doc/api/openapi/openapi.yaml · master · GitLab.org / GitLab · GitLab",
+            "url": "https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/api/openapi/openapi.yaml",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "M. Stoeckl / Waypipe · GitLab",
+            "url": "https://gitlab.freedesktop.org/mstoeckl/waypipe/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "build app (#130051) · Jobs · ci-testing / ob · GitLab",
+            "url": "https://gitlab.poidem.ru/ci-testing/ob/-/jobs/130051",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Container Registry · ops · GitLab",
+            "url": "https://gitlab.poidem.ru/groups/ops/-/container_registries/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "https://gitlab.poidem.ru/groups/ops/-/settings/repository#js-deploy-tokens",
+            "url": "https://gitlab.poidem.ru/groups/ops/-/settings/repository#js-deploy-tokens",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Help · GitLab",
+            "url": "https://gitlab.poidem.ru/help",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Runners scope · Runners · Ci · Help · GitLab",
+            "url": "https://gitlab.poidem.ru/help/ci/runners/runners_scope#group-runners",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Index · Container registry · Packages · User · Help · GitLab",
+            "url": "https://gitlab.poidem.ru/help/user/packages/container_registry/index",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Index · Deploy tokens · Project · User · Help · GitLab",
+            "url": "https://gitlab.poidem.ru/help/user/project/deploy_tokens/index.md",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "lisa / lisa-devops · GitLab&&pinned",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-devops",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Pipelines · lisa / lisa-devops · GitLab",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-devops/-/pipelines",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": ".gitlab-ci.yml · master · lisa / lisa-kube · GitLab",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-kube/-/blob/master/.gitlab-ci.yml",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Deploy:lisa-stg (#130238) · Jobs · lisa / lisa-kube · GitLab",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-kube/-/jobs/130238",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Deploy:lisa-stg (#130331) · Jobs · lisa / lisa-kube · GitLab",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-kube/-/jobs/130331",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Template:lisa-dev (#130658) · Jobs · lisa / lisa-kube · GitLab",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-kube/-/jobs/130658",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Pipelines · lisa / lisa-kube · GitLab",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-kube/-/pipelines",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "CI/CD Settings · CI/CD · Settings · lisa / lisa-kube · GitLab",
+            "url": "https://gitlab.poidem.ru/lisa/lisa-kube/-/settings/ci_cd",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Pipeline · ops / java-base · GitLab",
+            "url": "https://gitlab.poidem.ru/ops/java-base/-/pipelines/55071",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "CI/CD Settings · CI/CD · Settings · ops / java-base · GitLab",
+            "url": "https://gitlab.poidem.ru/ops/java-base/-/settings/ci_cd",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Импортонезамещение: «DevOps Комбо» от Слёрм. Это всё ещё не о бургерах и зелёной жиже / Хабр",
+            "url": "https://habr.com/ru/company/southbridge/news/t/659447/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "20 мая — старт курса «Kubernetes База» / Хабр",
+            "url": "https://habr.com/ru/company/southbridge/news/t/662041/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm | Docs",
+            "url": "https://helm.sh/docs/chart_best_practices/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm | Templates",
+            "url": "https://helm.sh/docs/chart_best_practices/templates/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm | Helm Completion Bash",
+            "url": "https://helm.sh/docs/helm/helm_completion_bash/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm | Helm Install",
+            "url": "https://helm.sh/docs/helm/helm_install/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm | Using Helm",
+            "url": "https://helm.sh/docs/intro/using_helm/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm | Chart Hooks",
+            "url": "https://helm.sh/docs/topics/charts_hooks/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Helm | Использование Helm",
+            "url": "https://helm.sh/ru/docs/intro/using_helm/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Image Layer Details - deepmind/kapitan:latest | Docker Hub",
+            "url": "https://hub.docker.com/layers/kapitan/deepmind/kapitan/latest/images/sha256-705ebcef0cbc775a88d48c91cf90014d0d5d2457664cbef4a8dde6a762f96985?context=explore",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Image Layer Details - projectsyn/kapitan:v0.29.5 | Docker Hub",
+            "url": "https://hub.docker.com/layers/kapitan/projectsyn/kapitan/v0.29.5/images/sha256-1cc6b834cda93d7b3728a10631237a45c46224f25c1b7bec2b244353a113e581?context=explore",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "bitnami/metrics-server Tags | Docker Hub",
+            "url": "https://hub.docker.com/r/bitnami/metrics-server/tags",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kapicorp/kapitan Tags | Docker Hub",
+            "url": "https://hub.docker.com/r/kapicorp/kapitan/tags",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "otomi/core Tags | Docker Hub",
+            "url": "https://hub.docker.com/r/otomi/core/tags",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Istio / Health Checking of Istio Services",
+            "url": "https://istio.io/latest/docs/ops/configuration/mesh/app-health-check/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Installing Otomi on Minikube | ITNEXT",
+            "url": "https://itnext.io/installing-otomi-on-minikube-2f83dfc421d2",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "TEST-TOMCAT [Jenkins]&&pinned",
+            "url": "https://jenkins.poidem.ru/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "ВОЙТИ - Разработка&&pinned",
+            "url": "https://jira.poidem.ru/login.jsp?permissionViolation=true&os_destination=%2Fprojects%2FOPS%2Fissues%2FOPS-44%3Ffilter%3Dallissues&page_caps=&user_role=",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Install",
+            "url": "https://k9scli.io/topics/install/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Kapitan documentation",
+            "url": "https://kapitan.dev/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Usage - Kapitan documentation",
+            "url": "https://kapitan.dev/usage/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Installation Guide - NGINX Ingress Controller",
+            "url": "https://kubernetes.github.io/ingress-nginx/deploy/#minikube",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Kubernetes 1.21: Power to the Community | Kubernetes",
+            "url": "https://kubernetes.io/blog/2021/04/08/kubernetes-1-21-release-announcement/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Managing Resources | Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Deployments | Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Creating a cluster with kubeadm | Kubernetes",
+            "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Set up Ingress on Minikube with the NGINX Ingress Controller | Kubernetes",
+            "url": "https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Releases | Kubernetes",
+            "url": "https://kubernetes.io/releases/_print/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Overview | Linkerd",
+            "url": "https://linkerd.io/2.11/overview/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Bash base64 encode and decode",
+            "url": "https://linuxhint.com/bash_base64_encode_decode/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "https://localhost/",
+            "url": "https://localhost/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Код подтверждения Slack: NKU-PRD - dr.dbld666@gmail.com - Gmail",
+            "url": "https://mail.google.com/mail/u/0/?tab=wm#all/FMfcgzGpFqWQLjqhWHDrblVLVPtRQJnG",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Почта — ataburkin@poidem.ru&&pinned",
+            "url": "https://mail.poidem.ru/owa/#path=/mail/AAMkADlmMWI5NTBjLWViMGEtNGQyNC1hZDBlLTI3ZmNjZWZjYjQxYgAuAAAAAAB4FGyoY%2FhsQrQqIwOpZkl4AQA1EaLS0HzERaCv0jacShjqAAAEmMX%2BAAA%3D",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Native integration between Apache Spark and Volcano Kubernetes scheduler | by Martin Grigorov | Mar, 2022 | Medium",
+            "url": "https://martin-grigorov.medium.com/native-integration-between-apache-spark-and-volcano-kubernetes-scheduler-488f54dbbab3",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Maven – Introduction to the Build Lifecycle",
+            "url": "https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Keep your ship together with Kapitan | by Alessandro De Maria | Kapitan Blog | Medium",
+            "url": "https://medium.com/kapitan-blog/keep-your-ship-together-with-kapitan-d82d441cc3e7",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "completion | minikube",
+            "url": "https://minikube.sigs.k8s.io/docs/commands/completion/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Drivers | minikube",
+            "url": "https://minikube.sigs.k8s.io/docs/drivers/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "docker | minikube",
+            "url": "https://minikube.sigs.k8s.io/docs/drivers/docker/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Accessing apps | minikube",
+            "url": "https://minikube.sigs.k8s.io/docs/handbook/accessing/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "minikube start | minikube",
+            "url": "https://minikube.sigs.k8s.io/docs/start/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Automated Kubernetes deployment with Helm and additional templating | by Mikhail Lepeshkin | Mar, 2022 | Medium",
+            "url": "https://mlepeshkin.medium.com/automated-kubernetes-deployment-with-helm-and-additional-templating-dc960689609f",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Browse - Nexus Repository Manager&&pinned",
+            "url": "https://nexus3.poidem.ru/#browse/browse:bin",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "About the Open Container Initiative - Open Container Initiative",
+            "url": "https://opencontainers.org/about/overview/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "How to screen share with the Linux KDE Plasma Desktop | Opensource.com",
+            "url": "https://opensource.com/article/22/2/screen-share-linux-kde",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Get involved | Otomi",
+            "url": "https://otomi.io/community/get-involved/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "FAQ | Otomi",
+            "url": "https://otomi.io/docs/faq/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Getting started with Otomi | Otomi",
+            "url": "https://otomi.io/docs/installation/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Activation steps | Otomi",
+            "url": "https://otomi.io/docs/installation/activation/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Install from chart | Otomi",
+            "url": "https://otomi.io/docs/installation/chart",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Optional configuration | Otomi",
+            "url": "https://otomi.io/docs/installation/optional",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Post installation steps | Otomi",
+            "url": "https://otomi.io/docs/installation/post-install/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Prerequisites | Otomi",
+            "url": "https://otomi.io/docs/installation/prerequisites",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "SRE Overview | Otomi",
+            "url": "https://otomi.io/docs/sre/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Known Issues: Istio | Otomi",
+            "url": "https://otomi.io/docs/sre/known-issues/istio/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Upgrades | Otomi",
+            "url": "https://otomi.io/docs/sre/upgrades",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "About us - Self-hosted Paas for Kubernetes",
+            "url": "https://redkubes.com/about-us/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Join the Otomi Community! Tackle the most common Kubernetes best practices and use cases with Otomi! Contribute, learn and share within the Otomi Community!",
+            "url": "https://redkubes.com/community/#articles",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Жёсткая ссылка — Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%96%D1%91%D1%81%D1%82%D0%BA%D0%B0%D1%8F_%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Установите Minikube в среде Linux - Русские Блоги",
+            "url": "https://russianblogs.com/article/62091715479/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "ManageEngine ServiceDesk Plus",
+            "url": "https://sd.poidem.ru/WOListView.do",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Kubernetes База",
+            "url": "https://slurm.io/kubernetes-baza#rec395023857",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "minikube - Reddit post and comment search - SocialGrep",
+            "url": "https://socialgrep.com/search?query=minikube",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Google - Site Reliability Engineering",
+            "url": "https://sre.google/books/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "How to retrieve the first n characters of a variable in Bash? - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/14992658/how-to-retrieve-the-first-n-characters-of-a-variable-in-bash",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kubernetes - How I can add root CA to minikube? - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/42646109/how-i-can-add-root-ca-to-minikube",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "docker : invalid reference format - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/45682010/docker-invalid-reference-format",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Kubernetes Minikube Docker trying and failing to pull image - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/48592157/kubernetes-minikube-docker-trying-and-failing-to-pull-image",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "kubernetes - macos minikube unsupported driver: kvm2 - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/55548477/macos-minikube-unsupported-driver-kvm2",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Error: validation: chart.metadata is required when using helm install Traefik - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/59951079/error-validation-chart-metadata-is-required-when-using-helm-install-traefik",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "How to search by tag with the Github Search API? - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/60005174/how-to-search-by-tag-with-the-github-search-api",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "go - Preventing context deadline exceeded (Client.Timeout exceeded while awaiting headers) error with HTTP 200 OK - Stack Overflow",
+            "url": "https://stackoverflow.com/questions/64619970/preventing-context-deadline-exceeded-client-timeout-exceeded-while-awaiting-hea",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "🐳 Обновление патчей безопасности в контейнерах Docker – Telegraph",
+            "url": "https://te.legra.ph/Obnovlenie-patchej-bezopasnosti-v-kontejnerah-Docker-05-06-2",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Otomi On Digital Ocean. Otomi is a self-hosted PaaS for… | by Abhimanyu | Apr, 2022 | Towards Dev",
+            "url": "https://towardsdev.com/otomi-on-digital-ocean-16778f4466b8",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "https://uc.poidem.ru/learning_proc?doc_id=&mode=learning_proc&old_object_id=7096356679710346240",
+            "url": "https://uc.poidem.ru/learning_proc?doc_id=&mode=learning_proc&old_object_id=7096356679710346240",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "https://uc.poidem.ru/view_doc.html?mode=learning_proc&course_id=7093847817164114907",
+            "url": "https://uc.poidem.ru/view_doc.html?mode=learning_proc&course_id=7093847817164114907",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Telegram Web&&pinned",
+            "url": "https://web.telegram.org/k/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Зарегистрироваться - Confluence&&pinned",
+            "url": "https://wiki-01.poidem.ru/login.action?os_destination=%2Fpages%2Fviewpage.action%3FpageId%3D336077&permissionViolation=true",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "A Multitude of Kubernetes Deployment Tools: Kubespray, kops, and kubeadm | Altoros",
+            "url": "https://www.altoros.com/blog/a-multitude-of-kubernetes-deployment-tools-kubespray-kops-and-kubeadm/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "How to Deploy a Kubernetes Cluster Using Kubespray | Densify",
+            "url": "https://www.densify.com/kubernetes-tools/kubespray",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Summer of K8s | Ambassador Labs",
+            "url": "https://www.getambassador.io/summer-of-k8s/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "[SOLVED] tigervnc desktop sharing with wayland?",
+            "url": "https://www.linuxquestions.org/questions/slackware-14/tigervnc-desktop-sharing-with-wayland-4175701035/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "(1) Wayland VNC/RDP : archlinux",
+            "url": "https://www.reddit.com/r/archlinux/comments/cvwjrj/wayland_vncrdp/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "DevOps - Self-hosted Paas for Kubernetes",
+            "url": "https://www.redkubes.com/devops/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Vagrant by HashiCorp",
+            "url": "https://www.vagrantup.com/",
+            "win": "HAdT1f70GXfV"
+        },
+        {
+            "title": "Яндекс",
+            "url": "https://yandex.ru/",
+            "win": "HAdT1f70GXfV"
+        }
+    ],
+    "created": 1652419375581
+}
