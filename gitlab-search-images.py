@@ -30,26 +30,25 @@ def httpRequestWrapper(func):
     return wrapper
 
 
-def paginated_get(url=str(),headers=dict(),params=dict(),exit_query=None):
+def paginated_get(url=str(),headers=dict(),params=dict(),exit_query=False):
     output = []
     params["per_page"] = 50
     r = requests.get(url=url, headers=headers,params=params)
     r.raise_for_status()
     output += r.json()
     next_page=int(r.headers["x-next-page"])
-    # print(r.headers["x-total-pages"])
+    logger.debug(r.headers["x-total-pages"])
     for i in range(next_page, int(r.headers["x-total-pages"])):
-        if exit_query is not None:
+        if exit_query:
             if exit_query(output):
                 logging.debug("exit query break")
-                # logging.debug(output)
                 break
         params["page"]=next_page
         req = requests.get(url=url, headers=headers, params=params)
         output += req.json()
         next_page=req.headers["x-next-page"]
-        # print(next_page)
     return output
+
 
 @httpRequestWrapper
 def get_groups(token,root,rest):
@@ -113,9 +112,6 @@ def get_raw_file(token,root,rest,project_id,payload={"ref": "master"},fname=".gi
         r.raise_for_status()
         with open(os.path.join(output,fname), 'wb') as f:
             for chunk in r.iter_content(chunk_size=8192):
-                # If you have chunk encoded response uncomment if
-                # and set chunk_size parameter to None.
-                #if chunk:
                 f.write(chunk)
     return True
 
@@ -133,11 +129,9 @@ def get_artifacts(token,root,rest,project_id,job_id,fname="artifacts.zip"):
         r.raise_for_status()
         with open(fname, 'wb') as f:
             for chunk in r.iter_content(chunk_size=8192):
-                # If you have chunk encoded response uncomment if
-                # and set chunk_size parameter to None.
-                #if chunk:
                 f.write(chunk)
     return fname
+
 
 def deepFindAll(self=dict(), key=str()):
     def list_add(listed,item):
@@ -160,23 +154,17 @@ def deepFindAll(self=dict(), key=str()):
                     listed_out = list_add(listed_out, deepFindAll(v, key))
         return listed_out
 
+
 def get_images_from_pipeline(pipefile,images,jobs):
-    # logging.debug(pipefile)
-    
     pipetext = "".join(pipefile)
     pipeline = yaml.safe_load(pipetext)
-    # print(pipeline)
     image_keys = deepFindAll(pipeline, "image")
-    # logger.debug("images")
-    # logger.debug(image_keys)
     trigger_keys = deepFindAll(pipeline, "trigger")
     if trigger_keys:
         for key in trigger_keys:
             includes = deepFindAll(key, "include")
             if includes:
                 for include in includes:
-                    # logger.debug("trigger jobs")
-                    # logger.debug(includes)
                     jobs.append(include["job"])
     output = []
     if image_keys:
@@ -188,58 +176,67 @@ def get_images_from_pipeline(pipefile,images,jobs):
     for image in output:
         logger.info(image)
     images += output
-    # print(re.findall(r'(.*)$', line))
-    # i_matches = re.findall(r'image:\s(.*)', line)
-    # in_matches = re.findall(r'image:\s*$^\s*(.*)', line)
-    # tr_matches = re.findall(r'(trigger:)', line)
-    # job_matches = re.findall(r'job:\s(.*)', line)
-    # needs_matches = re.findall(r'needs:\s*$^\s*-\s(.*)$', line, flags=re.MULTILINE)
-    # if len(i_matches) > 0:
-    #     logging.debug("image: {}".format(i_matches[0]))
-    #     images.append(i_matches[0])
-    # if len(tr_matches) > 0 and len(needs_matches) > 0:
-    #         logging.debug("trigger:needs: {}".format(needs_matches[0]))
-    #         jobs.append(needs_matches[0])
-    # if len(job_matches) > 0:
-    #     logging.debug("job:".format(job_matches[0]))
-    #     jobs.append(job_matches[0])
-    # logging.debug(jobs)
     return images, jobs
 
-# groups = get_groups(token,root,rest)
-# print(groups)
-# for group in groups:
-#    projects = get_group_projects(token,root,rest,group["id"])
+def menu(args):
+    def help():
+        help = "usage -t token [-h][-l][-o][-v] \n"\
+        "\t-h \"gitlab host\"\tuse this option to define the gitlab host\n"\
+        "\t\t\t\tdefault gitlab host is \"gitlab.com\"\n"\
+        "\t-t \"gitlab token\"\tuse this option to define the gitlab tocken \n"\
+        "\t-l \"logfile\"\t\tuse this option to define log file\n"\
+        "\t\t\t\tdefault log output is STD\"\n"\
+        "\t-o \"outputfile\"\t\tuse this option to define path to result file\n"\
+        "\t-v[vv]\t\t\tuse this option to verbose log output (-v|-vv|-vvv) to define loglevel\n"\
+        "\n"\
+        "\t--help\t\t\tto show this page"
+        print(help)
+        return sys.exit(0)
+    searcher = lambda x : args[args.index(x)+1] if x in args else False
+    token = searcher("-t")
+    host = searcher("-h")
+    logfile = searcher("-l")
+    outputfile = searcher("-o")
+    verbose = logging.DEBUG if "-vvv" in args else logging.ERROR if "-vv" in args else logging.INFO if "-v" in args else False
+    hlp = True if "--help" in args else True if len(args) <= 1 else False
+    if hlp:
+        return help()
+    else:
+        return token,host,logfile,outputfile,verbose
 
-# projects = [project  for project in get_group_projects(token,root,rest,group["id"])]
-# for project in projects:
-#     print(project)
-# import json
-# print(json.dumps(projects, indent=4, sort_keys=True))
 
-tmplogdir = tempfile.TemporaryDirectory()
-# if os.path.exists('gitlab-search-package.py.log'): os.remove('gitlab-search-package.py.log')
-tmplogname = os.path.join(tmplogdir.name, 'gitlab-search-package.py.log')
-logging.basicConfig(filename=tmplogname, encoding='utf-8', level=logging.DEBUG)
+args = sys.argv
+token,host,logfile,outputfile,verbose = menu(args)
+
+if not verbose:
+    if not logfile:
+        tmplogdir = tempfile.TemporaryDirectory()
+        tmplogname = os.path.join(tmplogdir.name, args[0])
+        logging.basicConfig(filename=tmplogname, encoding='utf-8', level=logging.DEBUG)
+    else:
+        logging.basicConfig(filename=logfile, encoding='utf-8', level=logging.DEBUG)
+else:
+    if not logfile:
+        logging.basicConfig(level=verbose)
+    else:
+        logging.basicConfig(filename=logfile, encoding='utf-8', level=verbose)
+
 rest="api/v4"
-root="gitlab.poidem.ru"
-# token=getpass() #token
-token="glpat-Uh8zoJGrwBJyiFAQwLgC"
 
-print(sys.argv)
+if host:
+    root=host
+else:
+    root="gitlab.com"
+
+if not token:
+    token = getpass("try to define token:\t")
+
 
 projects = get_projects(token,root,rest)
 images = []
 
 for project in projects:
     tmpprojdir = tempfile.TemporaryDirectory()
-    
-    # repo = Repo.clone_from(project["ssh_url_to_repo"], tmpprojdir.name)
-    # with repo.git.custom_environment(GIT_SSH_COMMAND='ssh -i ~/.ssh/gituser'):
-    #     repo.remotes.origin.fetch()
-    #     repo.heads.master.checkout()
-    #     repo.remotes.origin.pull()
-
     if get_raw_file(token,root,rest,project["id"],payload={"ref": "master"},fname=".gitlab-ci.yml",output=tmpprojdir.name):
         logging.info("{}\n{}".format(
             project["id"],
@@ -252,11 +249,6 @@ for project in projects:
             logging.info("open {}".format(pipiline_filename))
             with open(pipiline_filename, "r") as pipeline_file:
                 images, jobs = get_images_from_pipeline([str(x) for x in pipeline_file.readlines()], images, jobs)
-        # else:
-        #     print(tmpprojdir.name)
-        #     for rots, dirs, files in os.walk(tmpprojdir.name):
-        #         for file in files:
-        #             print(file)
 
         if jobs:
             jobs = list(set(jobs))
@@ -291,9 +283,12 @@ for project in projects:
 images = list(set(images))
 logging.debug(images)
 
-with open("images.txt", "w") as output:
+if outputfile:
+    with open(outputfile, "w") as output:
+        for image in images:
+            output.write("\n")
+            output.write(image)
+else:
     for image in images:
-        output.write("\n")
-        output.write(image)
-
-tmplogdir.cleanup()
+        print("\n")
+        print(image)
