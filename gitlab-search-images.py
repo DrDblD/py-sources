@@ -1,10 +1,6 @@
-
-# from genericpath import exists
-from asyncio.log import logger
 import time
 import requests
 from getpass import getpass
-# from git import Repo
 import os
 import tempfile
 import re
@@ -37,7 +33,7 @@ def paginated_get(url=str(),headers=dict(),params=dict(),exit_query=False):
     r.raise_for_status()
     output += r.json()
     next_page=int(r.headers["x-next-page"])
-    logger.debug(r.headers["x-total-pages"])
+    logging.debug(r.headers["x-total-pages"])
     for i in range(next_page, int(r.headers["x-total-pages"])):
         if exit_query:
             if exit_query(output):
@@ -174,7 +170,7 @@ def get_images_from_pipeline(pipefile,images,jobs):
             else:
                 output.append(key)
     for image in output:
-        logger.info(image)
+        logging.info(image)
     images += output
     return images, jobs
 
@@ -221,7 +217,7 @@ else:
     else:
         logging.basicConfig(filename=logfile, encoding='utf-8', level=verbose)
 
-rest="api/v4"
+
 
 if host:
     root=host
@@ -232,8 +228,9 @@ if not token:
     token = getpass("try to define token:\t")
 
 
+rest="api/v4"
 projects = get_projects(token,root,rest)
-images = []
+allImages = {}
 
 for project in projects:
     tmpprojdir = tempfile.TemporaryDirectory()
@@ -243,6 +240,7 @@ for project in projects:
             project["path_with_namespace"],
         ))
         jobs = []
+        images = []
         pipiline_filename = os.path.join(tmpprojdir.name,".gitlab-ci.yml")
 
         if os.path.isfile(pipiline_filename):
@@ -252,7 +250,6 @@ for project in projects:
 
         if jobs:
             jobs = list(set(jobs))
-            logging.debug(jobs)
             artifacts = []
             project_jobs = sorted(find_job(token,root,rest,project["id"],jobs), key=lambda x: x["created_at"], reverse=True)
             for job in project_jobs:
@@ -261,7 +258,6 @@ for project in projects:
                 if job["name"] in jobs:
                     if get_artifacts(token,root,rest,project["id"],job["id"],fname=artifacts_filename) is not None:
                         jobs.remove(job["name"])
-                        logging.debug(jobs)
                         artifacts.append(artifacts_filename)
             for artifact in artifacts:
                 try:
@@ -273,6 +269,7 @@ for project in projects:
                 except AttributeError as err:
                     logging.error(err)
                     logging.error("Corrupted zipfile")
+        allImages[project["path_with_namespace"]] = list(set(images))
         logging.debug("\n")
     else:
         logging.debug("{}".format(
@@ -280,15 +277,9 @@ for project in projects:
         ))
         logging.debug("such no pipiline file\n")
     tmpprojdir.cleanup()
-images = list(set(images))
-logging.debug(images)
 
 if outputfile:
     with open(outputfile, "w") as output:
-        for image in images:
-            output.write("\n")
-            output.write(image)
+            output.write(yaml.dump(allImages))
 else:
-    for image in images:
-        print("\n")
-        print(image)
+    print(yaml.dump(allImages))
