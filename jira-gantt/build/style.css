@@ -1,0 +1,20 @@
+.gantt-container {
+    width: 90vw; 
+    margin: 0 auto;
+}
+.chart-controls {
+    text-align: center;
+}
+.chart-controls > p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.chart-label {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+gantt-container .popup-wrapper {
+    width: 200px;
+    padding: 0 5px;
+}
